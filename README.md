@@ -14,6 +14,10 @@
 
 <h3>1단계</h3>
 
+<p>
+main Clsass에서 valueOfSupply의 값을 설정한다 
+getVat과 getTotal함수를 사용해 출력을 한다.</p>
+
 ```java
 class Accounting{
     public static double valueOfSuppyl;
@@ -47,6 +51,12 @@ public class AccountingApp {
 ```
 <h3>2단계</h3>
 
+<p>
+Accounting 클래스를 만든다 그리고 getVat함수와 getTotal함수를 생성까지는 
+1단계와 같고 main Clsass2에서 valueOfSupply의 값을 인스턴스 에 사용한다 
+getVat과 getTotal함수 는 valueOfSupply와 같이 인스턴스를 사용해 출력을 한다.</p>
+
+
 ```java
 class Accounting2 {
     public double valueOfSuppyl;
@@ -77,6 +87,14 @@ public class AccountingApp2 {
 }
 ```
 <h3>3단계</h3>
+
+<p>
+Accounting class 를 만들고 valueOfSupply와 vatRate 그리고 
+getVat함수와 와 인스터를 생성 하는 것은 1,2 단계랑 비슷하다
+생성자를 이용한 valueOfSupply의 값을 호출을 해준다. 
+this를 사용해 생성자와 호출값을 구분하여
+main class3 2단계와 같이 인스턴스를 호출한다.
+</p>
 
 ```java
 class Accounting3 {
